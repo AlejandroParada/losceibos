@@ -7,7 +7,7 @@ rem git checkout master
 git push origin --delete gh-pages
 rem git branch gh-pages
 
-npm run deploy
+npm run build
 
 git branch gh-pages
 git subtree split --prefix dist -b gh-pages 
